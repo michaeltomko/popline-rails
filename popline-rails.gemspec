@@ -5,11 +5,11 @@ require 'popline/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "popline-rails"
-  spec.version       = Popline::Rails::VERSION
+  spec.version       = PoplineRails::Rails::VERSION
   spec.authors       = ["michaeltomko"]
   spec.email         = ["mike@tomkobombco.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{The Popline HTML5 Editor bundled as a Rails Gem.}
+  spec.description   = %q{The Popline HTML5 Editor bundled as a Rails Gem.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

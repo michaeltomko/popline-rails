@@ -1,0 +1,63 @@
+.popline {
+  position: absolute;
+  height: 54px;
+  line-height: 54px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.75);
+  background: rgba(3, 119, 177, 0.85);
+  display: none;
+  margin: 0;
+  list-style: none;
+  padding: 0px 5px;
+  font-family: Arial, Helvetica, "Hiragino Sans GB", sans-serif;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+}
+.popline li {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 5px;
+  min-width: 24px;
+  text-align: center;
+  display: inline-block;
+}
+.popline .boxed {
+  padding: 0 4px;
+}
+.popline .lighter {
+  font-weight: lighter;
+}
+.popline .subbar {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+.popline .textfield {
+  border: none;
+  height: 54px;
+  font-size: 24px;
+  padding: 0 10px;
+  -webkit-box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+  background: rgba(74, 74, 74, 0.15);
+  color: #FFFFFF;
+  line-height: 31px;
+  margin-left: 10px;
+  display: none;
+  outline: none;
+  width: 300px;
+}
+.popline .textfield::-webkit-input-placeholder,
+.popline .textfield:-moz-placeholder,
+.popline .textfield::-moz-placeholder,
+.popline .textfield:-ms-input-placeholder {
+  color: #EEE;
+}
