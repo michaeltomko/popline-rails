@@ -1,4 +1,4 @@
-module Popline
+module PoplineRails
   module Rails
     VERSION = "0.0.1"
   end
